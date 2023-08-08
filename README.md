@@ -29,7 +29,7 @@ http://52.66.69.75:8080/
 - Pandas
 - Google Bigquery
 - Airflow
-- Tableau
+- Looker studio
 
 ## Workflow
 
@@ -44,9 +44,9 @@ http://52.66.69.75:8080/
 ## ปัญหาที่เจอ
 
 - docker network: ทุกครั้งที่ docker compose up network ของ container จะเปลี่ยนไป
-- top-level coding ทำให้เกิด error ตอน import dag
-- การส่งตัวแปรระหว่าง task: แก้ด้วยการสร้างอีก function และสร้าง variable เพื่อส่งไปให้ function ที่ต้องการใช้
-- แก้ timezone ใน airflow.cfg
+
+## dashboard
+- [looker](https://lookerstudio.google.com/reporting/3974e62b-664d-4792-91e8-67e6aeb3df5c)
 
 ## Reference
 
