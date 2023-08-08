@@ -1,0 +1,4 @@
+selenium
+pandas
+google-auth
+beautifulsoup4
